@@ -125,5 +125,27 @@ echo "\nПапка, в которой хранится файл -----> " .$route
 
 // Задача 9.
 
+/* $user_rate = ['Иван' => 30, 'Петр' => 33, 'Алексей' => 25, 'Сергей' => 32, 'Михаил' => 45];
+$user_rate_name = $user_rate;
+arsort($user_rate_name);
+rsort($user_rate);
 
+
+echo "Наибольший рейтинг у пользователя -----> " .array_key_first($user_rate_name) .' и равен ' .$user_rate[0] .PHP_EOL;
+next($user_rate_name);
+
+echo "Второй по рейтингу пользователь -----> " .key($user_rate_name) .' и равен ' .$user_rate[1] .PHP_EOL;
+next($user_rate_name);
+
+echo "Третий по рейтингу пользователь -----> " .key($user_rate_name) .' и равен ' .$user_rate[2]; */
+
+// Задача 10.
+
+/* $week_days = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
+$week_days_eng = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+$text = 'If you feel like a function should be enabled/disabled, friday if you have any other suggestions, let me know through the comments below or send me an email :)';
+
+echo str_ireplace($week_days_eng, $week_days, $text); */
+
+// Задача 11.
 ?>
