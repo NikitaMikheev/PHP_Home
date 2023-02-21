@@ -148,4 +148,35 @@ $text = 'If you feel like a function should be enabled/disabled, friday if you h
 echo str_ireplace($week_days_eng, $week_days, $text); */
 
 // Задача 11.
+
+/* $months = ["Лето" => ["Июнь", "Июль", "Август"], "Осень" => ["Сентябрь", "Октябрь", "Ноябрь"], "Зима" => ["Декабрь", "Январь", "Февраль"], "Весна" => ["Март", "Апрель", "Май"]];
+$name = "Май";
+
+
+if(in_array($name, $months["Лето"])) {
+	echo $name . ' - это лето';
+}
+
+elseif(in_array($name, $months["Осень"])) {
+	echo $name . ' - это осень';
+}
+
+elseif(in_array($name, $months["Зима"])) {
+	echo $name . ' - это зима';
+}
+
+elseif(in_array($name, $months["Весна"])) {
+	echo $name . ' - это весна';
+}
+
+else {
+	echo 'Такого месяца не существует!';
+} */
+
+// Задача 12.
+
+/* $cart = [ 13 => ['name'=>'Кеды', 'count'=>2, 'price'=>123], 28 => ['name'=>'Самолет', 'count'=>1, 'price'=>9999999] ];
+$id = 13;
+
+echo "Цена товара ----> " .$cart[$id]['name'] ." с id $id" . " равняется ========> " .$cart[$id]['price']; */
 ?>
